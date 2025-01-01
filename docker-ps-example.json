@@ -1,0 +1,128 @@
+{
+    "Command": "\"python3 /usr/local/…\"",
+    "CreatedAt": "2024-10-16 21:10:08 -0300 -03",
+    "ID": "e8911fe82498",
+    "Image": "mongodb/mongodb-community-server:latest",
+    "Labels": "name=MongoDB Standalone,org.opencontainers.image.ref.name=ubuntu,org.opencontainers.image.version=22.04,summary=MongoDB Standalone Container,vendor=MongoDB,version=7.0.14,description=Container configured with a standalone instance of MongoDB,maintainer=support@mongodb.com",
+    "LocalVolumes": "0",
+    "Mounts": "/opt/docker-vo…,/opt/docker-vo…",
+    "Names": "local-server-mongodb",
+    "Networks": "bridge",
+    "Ports": "",
+    "RunningFor": "2 months ago",
+    "Size": "0B",
+    "State": "exited",
+    "Status": "Exited (137) 6 weeks ago"
+}
+{
+    "Command": "\"/bin/seqentry\"",
+    "CreatedAt": "2024-06-27 18:32:51 -0300 -03",
+    "ID": "ab6e9ac3a897",
+    "Image": "datalust/seq",
+    "Labels": "Vendor=Datalust Pty Ltd,org.opencontainers.image.ref.name=ubuntu,org.opencontainers.image.version=22.04,Description=Seq",
+    "LocalVolumes": "0",
+    "Mounts": "/path/to/seq/d…",
+    "Names": "seq",
+    "Networks": "bridge",
+    "Ports": "",
+    "RunningFor": "5 months ago",
+    "Size": "0B",
+    "State": "exited",
+    "Status": "Exited (143) 6 weeks ago"
+}
+{
+    "Command": "\"/usr/bin/python3 -u…\"",
+    "CreatedAt": "2024-05-06 23:12:20 -0300 -03",
+    "ID": "ba77ebed8008",
+    "Image": "kms-server2",
+    "Labels": "",
+    "LocalVolumes": "0",
+    "Mounts": "",
+    "Names": "kms-server",
+    "Networks": "bridge",
+    "Ports": "0.0.0.0:1688-\u003e1688/tcp, :::1688-\u003e1688/tcp, 0.0.0.0:18888-\u003e8080/tcp, [::]:18888-\u003e8080/tcp",
+    "RunningFor": "7 months ago",
+    "Size": "0B",
+    "State": "running",
+    "Status": "Up 4 hours (healthy)"
+}
+{
+    "Command": "\"docker-entrypoint.s…\"",
+    "CreatedAt": "2024-05-06 18:39:37 -0300 -03",
+    "ID": "95c36f31c622",
+    "Image": "postgres:10-alpine",
+    "Labels": "",
+    "LocalVolumes": "0",
+    "Mounts": "/opt/docker-vo…,/opt/docker-vo…",
+    "Names": "local-server-postgres",
+    "Networks": "bridge",
+    "Ports": "0.0.0.0:5432-\u003e5432/tcp, :::5432-\u003e5432/tcp",
+    "RunningFor": "7 months ago",
+    "Size": "0B",
+    "State": "running",
+    "Status": "Up 4 hours"
+}
+{
+    "Command": "\"docker-entrypoint.s…\"",
+    "CreatedAt": "2024-05-06 18:02:08 -0300 -03",
+    "ID": "c09578932da4",
+    "Image": "mariadb:10.4",
+    "Labels": "org.opencontainers.image.url=https://github.com/MariaDB/mariadb-docker,org.opencontainers.image.authors=MariaDB Community,org.opencontainers.image.base.name=docker.io/library/ubuntu:focal,org.opencontainers.image.ref.name=ubuntu,org.opencontainers.image.source=https://github.com/MariaDB/mariadb-docker,org.opencontainers.image.vendor=MariaDB Community,org.opencontainers.image.version=10.4.33,org.opencontainers.image.description=MariaDB Database for relational SQL,org.opencontainers.image.documentation=https://hub.docker.com/_/mariadb/,org.opencontainers.image.licenses=GPL-2.0,org.opencontainers.image.title=MariaDB Database",
+    "LocalVolumes": "0",
+    "Mounts": "/opt/docker-vo…",
+    "Names": "local-server-mariadb",
+    "Networks": "bridge",
+    "Ports": "",
+    "RunningFor": "7 months ago",
+    "Size": "0B",
+    "State": "exited",
+    "Status": "Exited (0) 3 months ago"
+}
+{
+    "Command": "\"/bin/bash\"",
+    "CreatedAt": "2023-07-24 15:07:37 -0300 -03",
+    "ID": "b03c5f6a8199",
+    "Image": "ubuntu:20.04",
+    "Labels": "org.opencontainers.image.ref.name=ubuntu,org.opencontainers.image.version=20.04",
+    "LocalVolumes": "0",
+    "Mounts": "/home/raffaell…",
+    "Names": "scrapers",
+    "Networks": "bridge",
+    "Ports": "",
+    "RunningFor": "17 months ago",
+    "Size": "0B",
+    "State": "exited",
+    "Status": "Exited (129) 17 months ago"
+}
+{
+    "Command": "\"/usr/bin/dumb-init …\"",
+    "CreatedAt": "2023-07-13 10:12:14 -0300 -03",
+    "ID": "47a21f34970a",
+    "Image": "redis-commander:latest",
+    "Labels": "",
+    "LocalVolumes": "0",
+    "Mounts": "",
+    "Names": "redis-commander",
+    "Networks": "bridge",
+    "Ports": "0.0.0.0:10134-\u003e8081/tcp, [::]:10134-\u003e8081/tcp",
+    "RunningFor": "17 months ago",
+    "Size": "0B",
+    "State": "running",
+    "Status": "Up 4 hours (healthy)"
+}
+{
+    "Command": "\"/bin/bash\"",
+    "CreatedAt": "2023-06-26 17:48:18 -0300 -03",
+    "ID": "9a3961e99818",
+    "Image": "ubuntu:22.04",
+    "Labels": "org.opencontainers.image.ref.name=ubuntu,org.opencontainers.image.version=22.04",
+    "LocalVolumes": "0",
+    "Mounts": "",
+    "Names": "ubutu_teste",
+    "Networks": "bridge",
+    "Ports": "",
+    "RunningFor": "18 months ago",
+    "Size": "0B",
+    "State": "exited",
+    "Status": "Exited (0) 17 months ago"
+}

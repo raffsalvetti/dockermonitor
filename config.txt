@@ -1,0 +1,5 @@
+local-server-mongodb
+local-server-postgres
+local-server-mariadb
+redis-commander
+seq
